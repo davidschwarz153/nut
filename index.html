@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantische Ähnlichkeit und Netzwerkwolke</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      #network {
+        width: 100%;
+        height: 800px;
+        border: 1px solid #ccc;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.1/dist/vis-network.min.js"></script>
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <h1>Semantische Ähnlichkeit der Begriffe und Netzwerkwolke</h1>
+    <input type="text" id="search-input" placeholder="Suche nach einem Begriff...">
+    <div id="network"></div>
+
+
+  </body>
+</html>
